@@ -18,7 +18,7 @@ Scenario: User verifies the total bill amount is calculated correctly
 	| starter | 4     |
 	| main    | 4     |
 	| drink   | 4     |
-	Then the bill is calculated and has a value '58.40' pounds
+	Then the bill is calculated and has a value '58.4' pounds
 
 @scenario2
 Scenario: User verifies the total bill amount is calculated correctly when ordering at different discount period
